@@ -20,6 +20,7 @@ def selectUsingQsort(A, p, r, i):
 
 #최약성능    
 def selectLinear(A, p, r, i):
+    length = A.__len__()
     pass
     
 if __name__ == "__main__":
