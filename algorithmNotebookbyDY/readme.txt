@@ -1,1 +1,0 @@
-Jypyter Notebook describing algorithm
