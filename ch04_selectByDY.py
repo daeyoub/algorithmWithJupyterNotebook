@@ -11,7 +11,7 @@ def selectUsingQsort(A, p, r, i):
     #if __name__ =="__main__": print("partition(A,%d,%d)"%(p,r))
     q = partition(A,p,r)
     k = q-p+1
-    if i<k:
+    if i<k: 
         return selectUsingQsort(A,p, q-1, i)
     elif i==k:
         return A[q] 
